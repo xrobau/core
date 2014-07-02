@@ -1,0 +1,21 @@
+# phpseclib - PHP Secure Communications Library
+
+MIT-licensed pure-PHP implementations of an arbitrary-precision integer
+arithmetic library, fully PKCS#1 (v2.1) compliant RSA, DES, 3DES, RC4, Rijndael,
+AES, Blowfish, Twofish, SSH-1, SSH-2, SFTP, and X.509
+
+Please see LICENSE and AUTHORS for futher licensing information.
+
+# FuelPHP Additions
+This is a manual update of phpseclib by Rob Thomas <xrobau@gmail.com>, based on
+git commit af8f350050d4d49f06aebdd34a5530dfcdb1ca29.
+
+Normally, a sub-project like this would be brought in with Composer, but, as it's
+not namespaced, it requires manual patching.
+
+Great care has been taken to allow for easy tracking and updating of phpseclib,
+to ensure that critical security issues are easy to apply in the future.  
+
+Git will allow you to cherry pick individual patches into this tree using the
+command 'git format-patch -1 shahash', and then patch -p1 the resulting output.
+
