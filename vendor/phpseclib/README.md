@@ -7,8 +7,8 @@ AES, Blowfish, Twofish, SSH-1, SSH-2, SFTP, and X.509
 Please see LICENSE and AUTHORS for futher licensing information.
 
 # FuelPHP Additions
-This is a manual update of phpseclib by Rob Thomas <xrobau@gmail.com>, based on
-git commit af8f350050d4d49f06aebdd34a5530dfcdb1ca29.
+This is a manual update of phpseclib by Rob Thomas based on git commit 
+    af8f350050d4d49f06aebdd34a5530dfcdb1ca29.
 
 Normally, a sub-project like this would be brought in with Composer, but, as it's
 not namespaced, it requires manual patching.
@@ -19,3 +19,7 @@ to ensure that critical security issues are easy to apply in the future.
 Git will allow you to cherry pick individual patches into this tree using the
 command 'git format-patch -1 shahash', and then patch -p1 the resulting output.
 
+Packager: Rob Thomas <rob.thomas@schmoozecom.com>
+Source: https://github.com/phpseclib/phpseclib
+License: MIT
+Commit: af8f350050d4d49f06aebdd34a5530dfcdb1ca29
